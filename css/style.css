@@ -1,0 +1,165 @@
+@import "null.css";
+@import "fonts.css";
+/* -----------------------------------Произвольная домашка----------------------------------- */
+.wrapper {
+	min-height: 100%;
+}
+body{
+	font-family: "Roboto", sans-serif;
+	background-color: #F5F5F5;
+	padding-top: 120px;
+}
+.our-impact {
+	background-color: #29C3BE;;
+}
+.our-impact__container {
+	min-height: 610px;
+	max-width: 1020px;
+	margin: 0 auto 80px;
+	position: relative;
+}
+.our-impact__container::before{
+	content: "";
+	background-image: url("../img/Blob.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	min-width: 645px;
+	min-height: 300px;
+	position: absolute;
+	top: 0;
+	right: -70px;
+	}
+.our-impact__head {
+	padding-top: 110px;
+	margin-bottom: 80px;
+}
+.our-impact__title {
+	margin-bottom: 32px;
+}
+.block-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.block-title::before{
+	content: "";
+	background-image: url("../img/Overline-Mark.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 17px;
+	min-height: 17px;
+	margin-right: 16px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+.our-impact__subtitle {
+	max-width: 410px;
+}
+.block-subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+}
+.our-impact__picture img{
+	position: absolute;
+	top: -80px;
+	right: 0;
+}
+.our-impact__content {
+	display: flex;
+	/* justify-content: space-between; */
+	flex-wrap: wrap;
+	gap: 30px 80px;
+}
+.stat-block {
+	display: flex;
+	column-gap: 12px;
+	flex-wrap: wrap;
+}
+.stat-block__flex-column{
+	align-self: center;
+}
+.stat-block__picture {
+}
+.stat-block__numbers {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+}
+.stat-block__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+.our-promise {
+	background: #F5F5F5;
+}
+.our-promise__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	position: relative;
+}
+.our-promise__head {
+}
+.our-promise__title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin-bottom: 33px;
+}
+.block-title_icon-blue::before{
+	content: "";
+	background-image: url("../img/Overline-Mark-blue.png");
+	/* background-repeat: no-repeat;
+	background-position: center;
+	min-width: 17px;
+	min-height: 17px;
+	margin-right: 16px;
+	display: inline-block;
+	position: relative;
+	top: 4px; */
+}
+.our-promise__subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #000000;
+	margin-bottom: 68px;
+}
+.our-promise__content {
+	display: flex;
+	column-gap: 25px;
+}
+.about-block {
+	display: flex;
+	column-gap: 25px;
+}
+.about-block__picture {
+}
+.about-block__info {
+}
+.about-block__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+.about-block__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	max-width: 235px;
+}
